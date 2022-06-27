@@ -10,5 +10,6 @@ char *DuplicateEncoder(char *str);
 char *reverseWords(char *text);
 char *longestConsec(const char *arr, int arr_len, int k);
 bool validBraces(char *braces);
+bool is_pangram(const char *str);
 
 #endif
